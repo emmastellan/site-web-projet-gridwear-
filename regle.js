@@ -2,13 +2,6 @@ const blocks = document.querySelectorAll('.regle-block');
 const mots = document.querySelectorAll('.glossaire-mots span');
 const definitions = document.querySelectorAll('.definition-zone p');
 
-document.querySelectorAll('.glossary-term').forEach(term => {
-    term.addEventListener('click', e => {
-        e.stopPropagation(); // Empêche le clic de remonter au <summary>
-    });
-});
-
-
 mots.forEach(mot => {
     mot.addEventListener('mouseenter', () => {
         const data = mot.dataset.mot;
