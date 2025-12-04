@@ -117,7 +117,7 @@
 }
 
 .glossaire-mots span:hover {
-    color: #FFD700;; 
+    color: #FFD700; 
 }
 
 /* Zone de définition */
@@ -144,7 +144,7 @@
 
 /* Quand un mot est actif → sa définition s'affiche */
 .glossaire-mots span.active {
-    color: #0058c9;
+    color: ##FFD700; 
     font-weight: 700;
     text-decoration: underline;
 }
